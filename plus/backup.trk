@@ -1,0 +1,21 @@
+* 00000001
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S https://raw.githubusercontent.com/korenmiklos/here/master
+N here.pkg
+D 19 Jul 2026
+U 1
+d 'here': a simpler way to find your files
+d 
+d save the absolute path of the root of your project folder in a global macro.
+d 'here' roughly implements the behavior of the CRAN library with the same name.
+d 
+d Author: Miklós Koren
+d License: MIT
+d Distribution-Date: 20200731
+f h\here.ado
+f h\here.hlp
+e
